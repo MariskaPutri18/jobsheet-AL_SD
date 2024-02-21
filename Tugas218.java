@@ -45,18 +45,14 @@ public class Tugas218 {
             }
 
         } while ( pilhan!= 4);
-
-     
        sc.close();
     }
         static double hitungJarak(double kecepatan, double waktu) {
             return kecepatan * waktu;
         }
-
         static double hitungKecepatan(double jarak, double waktu) {
             return jarak / waktu;
         }
-
         static double hitungWaktu(double jarak, double kecepatan) {
             return jarak / kecepatan;
     }
